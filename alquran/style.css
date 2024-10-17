@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+   
+  }
+  body {
+    background-color: black;
+    color: white;
+    font-family: "poppins", sans-serif;
+  }
+  .feed {
+    margin-top: 50px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feed img {
+    width: 300px;
+    margin-left: 50px;
+  }
+ 
+  .feed p {
+    margin-left: 10px;
+  }
+  .penjelasan {
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .penjelasan2 {
+    color: gray;
+    font-size: 20px;
+    margin-left: -30px;
+    margin-top: 25px;
+    transition: color 0.5s ease-in-out;
+    
+  }
+  .penjelasan2:hover {
+    color: #b7b7b7;
+  }
+  .desc:hover {
+    color: white;
+  }
